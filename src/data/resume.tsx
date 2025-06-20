@@ -78,9 +78,12 @@ export const DATA = {
       href: "",
       location: "Remote",
       title: "Senior Full Stack Engineer",
-      logoUrl: "https://i.ibb.co/YQPTHsz/Group-1171274978.png",
-      start: "Sept 2024",
-      end: "Nov 2024",
+      logoUrl: "https://byldd.com/content/images/2023/01/byldd-logo.svg",
+      start: "June 2022",
+      end: new Date().toLocaleString("default", {
+        month: "short",
+        year: "numeric",
+      }),
       description: `
       Built the complete frontend for an AI-driven financial advisory platform designed to generate reports and
       deliver in-depth analytics.
@@ -90,46 +93,46 @@ export const DATA = {
       generate AI responses & React Charts for Analytics
       `,
     },
-    {
-      company: "Makamba Maternity",
-      badges: [],
-      href: "https://apps.apple.com/app/id6469010105",
-      location: "Remote",
-      title: "Full Stack App Developer Intern",
-      logoUrl: "https://i.ibb.co/qNmq5PS/Screenshot-2024-11-27-at-02-34-56.png",
-      start: "Jan 2023",
-      end: "April 2023",
-      description: `Makamba Maternity - is a mobile app built for pregnant women to help them with their
-pregnancy and to deal with doctors while tracking their progress
-- I managed to build the entire frontend of the mobile app using React Native and Typescript.
-- Managed to implement in-app payments, push notifications & Google Cloud Storage.
-- The app extends more complex features like booking a meeting with doctor, messaging and much more.`,
-    },
-    {
-      company: "Viia",
-      href: "https://apps.apple.com/gb/app/viia/id6447322346",
-      badges: [],
-      location: "Remote",
-      title: "Full Stack App Developer Intern",
-      logoUrl: "https://i.ibb.co/KDZD0j7/Screenshot-2024-11-27-at-02-35-59.png",
-      start: "Sept 2022",
-      end: "Feb 2023",
-      description: `Developed Viia, a carpooling app for users in Manchester, Birmingham, and London, aimed at
-reducing travel costs.
-- Developed a high-performing mobile frontend using React Native and TypeScript.
-- Integrated Google Cloud Maps and Firebase Storage, enabling in-app payments, real-time
-driver locations, and driver messaging.`,
-    },
+    //     {
+    //       company: "Makamba Maternity",
+    //       badges: [],
+    //       href: "https://apps.apple.com/app/id6469010105",
+    //       location: "Remote",
+    //       title: "Full Stack App Developer Intern",
+    //       logoUrl: "https://i.ibb.co/qNmq5PS/Screenshot-2024-11-27-at-02-34-56.png",
+    //       start: "Jan 2023",
+    //       end: "April 2023",
+    //       description: `Makamba Maternity - is a mobile app built for pregnant women to help them with their
+    // pregnancy and to deal with doctors while tracking their progress
+    // - I managed to build the entire frontend of the mobile app using React Native and Typescript.
+    // - Managed to implement in-app payments, push notifications & Google Cloud Storage.
+    // - The app extends more complex features like booking a meeting with doctor, messaging and much more.`,
+    //     },
+    //     {
+    //       company: "Viia",
+    //       href: "https://apps.apple.com/gb/app/viia/id6447322346",
+    //       badges: [],
+    //       location: "Remote",
+    //       title: "Full Stack App Developer Intern",
+    //       logoUrl: "https://i.ibb.co/KDZD0j7/Screenshot-2024-11-27-at-02-35-59.png",
+    //       start: "Sept 2022",
+    //       end: "Feb 2023",
+    //       description: `Developed Viia, a carpooling app for users in Manchester, Birmingham, and London, aimed at
+    // reducing travel costs.
+    // - Developed a high-performing mobile frontend using React Native and TypeScript.
+    // - Integrated Google Cloud Maps and Firebase Storage, enabling in-app payments, real-time
+    // driver locations, and driver messaging.`,
+    //     },
   ],
   education: [
     {
-      school: "University of Dundee",
-      href: "https://dundee.ac.uk",
-      degree: "BSc(Hons) Computer Science",
+      school: "Manipal University Jaipur",
+      href: "https://jaipur.manipal.edu/",
+      degree: "Bachelor of Computer Science",
       logoUrl:
-        "https://imgs.search.brave.com/nktYxrZaYcR3XFgpbmW83nU8rwGt7ckfMyPMp3I0CEw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi84Lzg4L0Fy/bXNfb2ZfdGhlX1Vu/aXZlcnNpdHlfb2Zf/RHVuZGVlLnN2Zy81/MTJweC1Bcm1zX29m/X3RoZV9Vbml2ZXJz/aXR5X29mX0R1bmRl/ZS5zdmcucG5n",
-      start: "2022",
-      end: "2026",
+        "https://ik.imagekit.io/syustaging/SYU_PREPROD/manipal-university-jaipur-logo-png_3OygX3qEM.webp?tr=w-3840",
+      start: "2021",
+      end: "2024",
     },
   ],
   projects: [
