@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Alishan Ali",
-  initials: "Khush",
+  initials: "Alishan",
   url: "https://dillion.io",
   location: "Dundee, United Kingdom",
   description: "Software Engineer",
@@ -11,6 +11,7 @@ export const DATA = {
     "I am a Full Stack Engineer specializing in React Native, Next.js, Node.js, and MongoDB, with expertise in building scalable web and mobile applications. Currently working at Byldd, I focus on developing high-performance applications with strong frontend UI/UX, backend architecture, and cloud deployment. As the founder of Zero Degree Coder, I create courses and mentor developers in React Native and full-stack development. I have also launched Kahani FM, a Hindi storytelling platform. Passionate about building impactful digital solutions and sharing knowledge, I continuously seek new opportunities to innovate. I also enjoy creating YouTube videos and producing valuable content for my audience.",
   avatarUrl:
     "https://53qu3820aq.ufs.sh/f/5Zfltx6SlWVptV8eZ20CeYdAwrWKjHU0B28zGpcN6RsyZg9b",
+    // "https://53qu3820aq.ufs.sh/f/5Zfltx6SlWVp4dnYANKA7arkLHsXjvq2dfhMu5T8VwoxGNzZ",
   skills: [
     "React Native",
     "Expo",
