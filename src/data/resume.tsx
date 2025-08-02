@@ -137,129 +137,163 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Viia",
-      href: "https://apps.apple.com/gb/app/viia/id6447322346",
+      title: "Zero Degree Coder – LMS Platform",
+      href: "https://www.zerodegreecoder.in/",
       active: true,
       description:
-        "Developed a carpooling application that can help users lower down their travel expenses by a great percentage, without cutting down on a great travel experience, with a great provided security. Primary goal of the app was to travel safest, with necessary and extended security.",
-      technologies: ["React Native", "React", "Node.js", "Expo", "Firebase"],
-      links: [
-        {
-          type: "Mobile App",
-          href: "https://apps.apple.com/gb/app/viia/id6447322346",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "https://i.ibb.co/RQVXGJZ/918shots-so.png",
-      dates: "",
-    },
-    {
-      title: "Makamba Maternity",
-      href: "https://apps.apple.com/app/id6469010105",
-      active: true,
-      description:
-        "Developed a pregnancy tracker app, which includes all the functionalities for a mother, and makes her pregnancy tracking easy. Includes a on service doctor on chat / call subscriptions. A complete SASS product.",
-      technologies: ["React Native", "React", "Node.js", "Expo", "Firebase"],
-      links: [
-        {
-          type: "Mobile App",
-          href: "https://apps.apple.com/app/id6469010105",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "https://i.ibb.co/g3MgYF4/370shots-so.png",
-      dates: "",
-    },
-    {
-      title: "Fitness Centre",
-      href: "https://apps.apple.com/gb/app/fit-center/id6479176792",
-      active: true,
-      description:
-        "Developed a fitness centre app, which allows users to get personally trained, tailored workout plans, track their progress and much more. The app is compleely scalable and is being used by actual users & trainers",
-      technologies: [
-        "React Native",
-        "React",
-        "Node.js",
-        "Expo",
-        "Firebase",
-        "Stripe",
-      ],
-      links: [
-        {
-          type: "Mobile App",
-          href: "https://apps.apple.com/gb/app/fit-center/id6479176792",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "https://i.ibb.co/ZJy3vgM/575shots-so.png",
-      dates: "",
-    },
-    {
-      title: "Just Signup Me",
-      href: "https://justsignup.me",
-      active: true,
-      description:
-        "Allows you to simply collec emails from the frontend with no need of backend, a email service or a server - handles everything by itslef. Gives anlytical data, table of signed up users and more.",
+        "Built a full-featured Learning Management System (LMS) where instructors can upload, manage, and sell online courses, while students can securely purchase and stream content. Features include secure authentication, video streaming with MUX, course progress tracking, and admin-level dashboards.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "Supabase",
-        "Resend",
-        "TailwindCSS",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Prisma",
+        "MUX",
         "Stripe",
-        "Framer Motion",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://justsignup.me",
+          type: "Web App",
+          href: "https://www.zerodegreecoder.in/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://i.ibb.co/nQ7K5Nn/265shots-so.png",
+      image:
+        "https://53qu3820aq.ufs.sh/f/5Zfltx6SlWVpBR2RngbYkTOICG905SfsRLvQBxWej1DdYErA", // replace with real image
+      dates: "",
+    },
+    {
+      title: "AutoAI Shorts: AI Video Creator",
+      href: "https://play.google.com/store/apps/details?id=com.alishanbyldd.AutoAIShorts",
+      active: true,
+      description:
+        "AutoAI Shorts is a cross-platform AI-powered mobile app that allows users to create viral short-form videos (like Reels, Shorts, and TikToks) using generative AI. It supports automated script generation, lifelike AI voiceovers, image generation, and video rendering. Designed for creators, influencers, and marketers to produce professional-quality content with minimal effort.",
+      technologies: [
+        "React Native",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Stable Diffusion",
+        "Google Gemini",
+        "ElevenLabs API",
+        "Remotion",
+        "AWS S3",
+        "AWS Lambda",
+        "EC2",
+        "Firebase",
+        "Google Play Console",
+      ],
+      links: [
+        {
+          type: "Android App",
+          href: "https://play.google.com/store/apps/details?id=com.alishanbyldd.AutoAIShorts",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://53qu3820aq.ufs.sh/f/5Zfltx6SlWVpy0s9rZ3tAw6GHljQCyF4TB3YNaDgPvM5ISex", // Replace with an actual promotional image or screenshot
+      dates: "",
+    },
+    {
+      title: "Okee – Parental Control App",
+      href: "https://apps.apple.com/app/idXXXXXXXXXX", // Replace with actual App Store link
+      active: true,
+      description:
+        "Okee is a full-stack iOS parental control app designed to help parents monitor and guide their children's digital habits. Built using SwiftUI and Apple’s Screen Time API, it allows parents to set screen time limits, view app usage, and receive alerts. A custom backend powers user accounts, data sync, and analytics, ensuring privacy and scalability.",
+      technologies: [
+        "Swift",
+        "SwiftUI",
+        "Screen Time API",
+        "iOS SDK",
+        "Core Data",
+        "UserDefaults",
+        "Push Notifications",
+        "TestFlight",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT Auth",
+        "REST API",
+        "App Store Connect",
+      ],
+      links: [
+        {
+          type: "iOS App",
+          href: "https://apps.apple.com/app/idXXXXXXXXXX", // Replace with actual App Store link
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://53qu3820aq.ufs.sh/f/5Zfltx6SlWVpxhONqo1KcVbWq3Urepiuw4Y9jdlX7zLgvJTA", // Replace with your app's promo image
+      dates: "",
+    },
+    {
+      title: "Arrange – AI-Powered Scheduling Platform",
+      href: "https://www.arrangeai.io/",
+      active: true,
+      description:
+        "Contributed to Arrange, an intelligent scheduling platform designed for individuals and teams managing multiple external calendars. Built to streamline coordination across parties, Arrange automates availability matching, calendar syncing, and meeting setup—particularly for recruiters and organizations handling complex scheduling flows. The platform prioritizes speed, simplicity, and automation, offering a seamless scheduling experience.",
+      technologies: [
+        "PHP",
+        "Laravel",
+        "Vue.js",
+        "SQL",
+        "React.js",
+        "JavaScript",
+      ],
+      links: [
+        {
+          type: "Live Site",
+          href: "https://www.arrangeai.io/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://53qu3820aq.ufs.sh/f/5Zfltx6SlWVpQEdi1A5bmCTWSgtO45YHLqvJ73dfo8xIZpD1", // Replace with actual screenshot of the Arrange homepage or dashboard
       dates: "",
     },
   ],
   hackathons: [
     {
-      title: "DurHack - Durham University",
-      dates: "Nov 2nd - 4th, 2024",
-      location: "Durham, United Kingdom",
+      title: "notJustHack – AI Hackathon Project",
+      dates: "Nov 2–4, 2024",
+      location: "Remote",
       description:
-        "Developed a mobile app which allows users/financial advisors to analyse fraud calls to & be safe from legal frauds. The app uses AI to analyse the call and provide a report on the call.",
-      image: "https://durhack.com/assets/branding/durhack-2024-mark.svg",
+        "Built the prototype of AutoAI Shorts during the notJustHack hackathon—a mobile app that uses AI to generate short-form videos like Reels, Shorts, and TikToks. The app integrates text-to-speech (TTS), image generation, background music, and video rendering into one seamless flow. Designed to help users rapidly create engaging content using AI with minimal effort.",
+      image:
+        "https://cdn.prod.website-files.com/671f94867f7d8fc344acc7d6/67491abbfa5fe911779f1dc5_Logo_white.svg",
       links: [
         {
-          title: "Github",
+          title: "GitHub",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/khushxxl/durhack_atom_mobile_app",
+          href: "https://github.com/mdalishanali",
         },
       ],
     },
-    {
-      title: "Quackathon - University of Dundee",
-      dates: "May 2024",
-      location: "Dundee, United Kingdom",
-      description:
-        "A blockchain based platform which allows users to create and trade their own NFTs. It's a learning platform for users to learn about blockchain and NFTs. Trade, Track, Create, Learn.",
-      image: "https://ducs.dev/images/ducs_logo.webp",
 
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-      ],
-    },
-    {
-      title: "Quackathon - University of Dundee",
-      dates: "May 2023",
-      location: "Dundee, United Kingdom",
-      description:
-        "A mobile app which allows users to literate themselves about money and finance. The app uses AI to provide personalised financial advice to users. Consisted of a piggy bank, a quiz and a chatbot.",
-      image: "https://ducs.dev/images/ducs_logo.webp",
-      links: [],
-    },
+    // {
+    //   title: "Quackathon - University of Dundee",
+    //   dates: "May 2024",
+    //   location: "Dundee, United Kingdom",
+    //   description:
+    //     "A blockchain based platform which allows users to create and trade their own NFTs. It's a learning platform for users to learn about blockchain and NFTs. Trade, Track, Create, Learn.",
+    //   image: "https://ducs.dev/images/ducs_logo.webp",
+
+    //   links: [
+    //     {
+    //       title: "Github",
+    //       icon: <Icons.github className="h-4 w-4" />,
+    //       href: "https://github.com/Wallet6/my6footprint-machine-learning",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Quackathon - University of Dundee",
+    //   dates: "May 2023",
+    //   location: "Dundee, United Kingdom",
+    //   description:
+    //     "A mobile app which allows users to literate themselves about money and finance. The app uses AI to provide personalised financial advice to users. Consisted of a piggy bank, a quiz and a chatbot.",
+    //   image: "https://ducs.dev/images/ducs_logo.webp",
+    //   links: [],
+    // },
   ],
 } as const;
